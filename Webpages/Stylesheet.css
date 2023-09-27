@@ -1,0 +1,63 @@
+/* General settings for all pages */
+/* Do NOT Change */
+* {
+    margin: 0;
+    padding: 0;
+    size: 0;
+}
+
+/* Navbar css - Dylan */
+.nav-container {
+    background-color: #0F2B22;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    width: auto;
+    height: 25vh;
+    position: relative;
+}
+
+#Image-logo {
+    display: flex;
+    -ms-flex-align: center;
+}
+
+.list_Menu {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-60%);
+    background-color: orange;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left:20px;
+    
+}
+
+.list_Menu li {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #DBFF4A;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    list-style: none;
+    width: 200px;
+    top: 100%;
+    left: 0;
+}
+
+.list_Menu li:hover .dropdown-content {
+    display: block;
+}

@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
     size: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #006445;
 }
 
 /* Navbar css - Dylan */
@@ -12,43 +16,54 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
     padding: 0 20px;
-    color: white;
     width: auto;
     height: 25vh;
-    position: relative;
+    font-weight: bold;
 }
-
 #Image-logo {
     display: flex;
     -ms-flex-align: center;
+    height:auto;
+    Width:10%;
 }
-
-.list_Menu {
+.list-Menu{
     display: flex;
-    list-style: none;
     position: absolute;
     bottom: 0;
     transform: translateY(-60%);
-    background-color: orange;
-    justify-content: space-between;
-    padding-left:20px;
-    padding-right: 20px;
+    padding:10px;
     box-sizing: border-box;
-    margin-left:20px;
-    
+    margin-left:30px;
+    border-radius: 10px;
+    background-color:#006445;
+    width:85%;
+    justify-content: space-evenly;
 }
-
-.list_Menu li {
+.home-box{
+    transform: translateY(-90%);
+    box-sizing: border-box;
+    background-color: #006445;
+    text-align: center;
+    padding: 18px;
+    border-radius: 10px;
+    width: 85vw;
+    align-items: center;
+    margin-left: 30px; 
+    color: white; 
+    font-size:large
+}
+.list-Menu li {
     margin-right: 10px;
     display: flex;
     align-items: center;
     position: relative;
     background-color: #DBFF4A;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
+    color:black;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
@@ -57,7 +72,13 @@
     top: 100%;
     left: 0;
 }
-
-.list_Menu li:hover .dropdown-content {
+.list-Menu li:hover .dropdown-content {
     display: block;
 }
+.dropdown-content li {
+    background-color: white;
+}
+.navbar-link{
+    color:black;
+}
+/*Index css - Dylan */

@@ -6,11 +6,11 @@
     size: 0;
     text-decoration: none;
 }
-body{
+body {
     background-color: #004630;
 }
 
-/* Navbar css - Dylan */
+/* Navbar - Dylan */
 .nav-container {
     background-color: #0F2B22;
     display: flex;
@@ -81,4 +81,44 @@ body{
 .navbar-link{
     color:black;
 }
-/*Index css - Dylan */
+/* Footer - Dylan */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0F2B22;  
+    height: 10%; 
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.footer-content {
+    display:flex;
+    background-color: #006445;
+    border-radius: 5px;
+    padding:10px;
+    margin:2vw;
+    width:100%;
+    align-items:baseline;
+    justify-content: space-between;
+}
+.Footer-copyright{
+    background-color: #DBFF4A;
+    padding: 10px;
+    border-radius: 25px;
+    margin-left:30px;
+}
+.Footer-external{
+    background-color:#DBFF4A;
+    padding:10px;
+    border-radius: 25px;
+    margin-left:30px;
+}
+.Footer-contact{
+    display:flex;
+    padding:10px;
+    margin-left:30px;
+    border-radius: 25px;
+    background-color:#DBFF4A;
+}
+/*Index - Dylan */

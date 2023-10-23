@@ -135,7 +135,7 @@ body {
 .wiebenik{
     position: absolute;
     top: 250px;
-    left: 800px;
+    left: 700px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-transform: uppercase;
@@ -146,7 +146,7 @@ body {
 .hobbies{
     position: absolute;
     bottom: 110px;
-    left: 800px;
+    left: 700px;
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-transform: uppercase;

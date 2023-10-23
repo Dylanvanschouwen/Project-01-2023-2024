@@ -26,22 +26,22 @@ body {
     display: flex;
     -ms-flex-align: center;
     height:auto;
-    Width:10%;
+    width:10%;
 }
-.list-Menu{
+.list-Menu {
     display: flex;
     position: absolute;
     bottom: 0;
     transform: translateY(-60%);
-    padding:10px;
+    padding: 10px;
     box-sizing: border-box;
-    margin-left:30px;
+    margin-left: 30px;
     border-radius: 10px;
-    background-color:#006445;
-    width:85%;
+    background-color: #006445;
+    width: 85%;
     justify-content: space-evenly;
 }
-.home-box{
+.home-box {
     transform: translateY(-90%);
     box-sizing: border-box;
     background-color: #006445;
@@ -52,7 +52,7 @@ body {
     align-items: center;
     margin-left: 30px; 
     color: white; 
-    font-size:large
+    font-size: large;
 }
 .list-Menu li {
     margin-right: 10px;
@@ -62,7 +62,7 @@ body {
     background-color: #DBFF4A;
     padding: 10px;
     border-radius: 50px;
-    color:black;
+    color: black;
 }
 .dropdown-content {
     display: none;
@@ -75,96 +75,133 @@ body {
 .list-Menu li:hover .dropdown-content {
     display: block;
 }
-.dropdown-content li {
+#dropdown-content li {
     background-color: white;
 }
-.navbar-link{
-    color:black;
+#navbar-link {
+    color: black;
+}
+.home-body-img {
+    width: 25%;
+    margin-right: 5px;
+}
+
+.home-body-img img {
+    width: 100%;
+    height: auto;
+}
+.home-H1-up,
+.home-H1-down {
+    margin-right: 5px;
+}
+.home-rectangle {
+    width: 25%;
 }
 /* Footer - Dylan */
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #0F2B22;  
-    height: 10%; 
+    background-color: #0F2B22;
+    height: 10%;
     display: flex;
     align-items: center;
     font-weight: bold;
 }
 .footer-content {
-    display:flex;
+    display: flex;
     background-color: #006445;
     border-radius: 5px;
-    padding:10px;
-    margin:2vw;
-    width:100%;
-    align-items:baseline;
+    padding: 10px;
+    margin: 2vw;
+    width: 100%;
+    align-items: baseline;
     justify-content: space-between;
 }
-.Footer-copyright{
+#Footer-copyright {
     background-color: #DBFF4A;
     padding: 10px;
     border-radius: 25px;
-    margin-left:30px;
+    margin-left: 30px;
 }
-.Footer-external{
-    background-color:#DBFF4A;
-    padding:10px;
+#Footer-external {
+    background-color: #DBFF4A;
+    padding: 10px;
     border-radius: 25px;
-    margin-left:30px;
+    margin-left: 30px;
 }
-.Footer-contact{
+#Footer-contact {
+    display: flex;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 25px;
+    background-color: #DBFF4A;
+}
+
+/* Index - Dylan */
+#home-main {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center elements */
+    color: white;
+    position: absolute;
+    top: 25vh;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* Update styles for Home-body-img */
+.home-body-img {
+    width: 25%;
+    margin-right: 5vw; /* Add a margin of 5vw to the right */
+}
+
+/* Update styles for Home-body-tiles */
+.home-body-tiles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Update styles for home-squares */
+.home-squares {
+    text-align: right;
+}
+
+/* Position Up and Down tiles to the right of home-body-img */
+#home-H1-up {
+    margin-top: -15px; /* Move Up word 15 pixels above */
+}
+
+/* Position the side word to the right of the screen */
+.home-rectangle {
+    margin-left: auto; /* Push it to the right edge of the screen */
+    margin-right: 5vw; /* Add a margin of 5vw to the right */
+}
+/* Formulier - Dylan */
+#Form-Main{
+    position: absolute;
+    top: 25vh; 
+    bottom: 10%; 
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#Inschruif-Form{
     display:flex;
-    padding:10px;
-    margin-left:30px;
-    border-radius: 25px;
-    background-color:#DBFF4A;
+    justify-content: center;
 }
-/*Index - Dylan */
-.home-body{
+.Form-UL{
     color:white;
+    margin-left:15px;
 }
-.superman{
-    width: 400px;
-    height: 500px;
-    padding: 15px;
-    margin: 10px;
-
+.Updates-Form{
+display:flex;
+flex-direction: row;
 }
-.wiebenik{
-    position: absolute;
-    top: 250px;
-    left: 700px;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    text-transform: uppercase;
-    font-size: 30px;
-    padding: 50px;
-    background-color: #006445;
-}
-.hobbies{
-    position: absolute;
-    bottom: 110px;
-    left: 700px;
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    text-transform: uppercase;
-    font-size: 30px;
-    padding: 50px;
-    background-color: #006445;
-
-}
-.theater{
-    width: 400px;
-    height: 500px;
-   position: absolute;
-   left: 1455px;
-   top: 275px;
-    
-}
-.office365{
-    position: absolute;
-    left: 450px;
-    top: 270px;
+.Updates-Label{
+display:flex;
+justify-content: space-evenly;
 }

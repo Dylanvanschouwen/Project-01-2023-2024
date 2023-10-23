@@ -201,7 +201,7 @@ body {
 display:flex;
 flex-direction: row;
 }
-.Updates-Label{
+.Updates-Labels{
 display:flex;
 justify-content: space-evenly;
 }

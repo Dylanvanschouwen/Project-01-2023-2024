@@ -125,3 +125,46 @@ body {
 .home-body{
     color:white;
 }
+.superman{
+    width: 400px;
+    height: 500px;
+    padding: 15px;
+    margin: 10px;
+
+}
+.wiebenik{
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 50px;
+    background-color: #006445;
+}
+.hobbies{
+    position: absolute;
+    bottom: 110px;
+    left: 800px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 50px;
+    background-color: #006445;
+
+}
+.theater{
+    width: 400px;
+    height: 500px;
+   position: absolute;
+   left: 1455px;
+   top: 275px;
+    
+}
+.office365{
+    position: absolute;
+    left: 450px;
+    top: 270px;
+}

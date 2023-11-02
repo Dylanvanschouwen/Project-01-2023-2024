@@ -280,14 +280,14 @@ nav {
     margin: 30px;
     align-items: center;
 }
-#OverDylan-H1-up,
-#OverDylan-H1-down,
-#OverDylan-H1-up2,
-#OverDylan-H1-down2 {
+#OverDylan-H1-up{
     margin: 20px;
     margin-bottom: 5vw;
     padding: 20px;
     background-color: #006445;
+}
+#Dylan-hobbies{
+    font-size: 15px;
 }
 /* Apps - Canvas.html - Dylan */
 main {
